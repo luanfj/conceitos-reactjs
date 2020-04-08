@@ -15,7 +15,7 @@ function App() {
   async function handleAddRepository() {
     const response = await api.post('repositories', {
       title: `Novo projeto ${Date.now()}`,
-      url: 'https://github.com/josepholiveira',
+      url: 'https://github.com/luanfj',
       techs: ["React", "Node.js"],
     });
 
